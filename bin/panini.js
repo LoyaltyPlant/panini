@@ -15,7 +15,8 @@ var options = {
   "data": String,
   "helpers": String,
   "output": String,
-  "version": String
+  "version": String,
+  "json": Object
 }
 
 // Shorthands for the above commands

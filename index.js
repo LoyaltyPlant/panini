@@ -12,8 +12,6 @@ function Panini(options) {
   this.layouts = {};
   this.data = {};
 
-  console.log(this.options);
-  
   if (!options.layouts) {
     throw new Error('Panini error: you must specify a directory for layouts.');
   }
